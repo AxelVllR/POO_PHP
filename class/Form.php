@@ -26,7 +26,7 @@ class Form {
      * @param string $html : code généré par les methodes input et submit
      * @return string $html entouré du tag choisi par @var $surround
      */
-    private function surround($html) {
+    protected function surround($html) {
         return "<{$this->surround}>{$html}</{$this->surround}>";
     }
 
@@ -36,7 +36,7 @@ class Form {
      * 
      * @return void
      */
-    private function getValue($index) {
+    protected function getValue($index) {
         return isset($this->data[$index]) ? $this->data[$index] : null;
     }
 
