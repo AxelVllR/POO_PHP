@@ -1,5 +1,5 @@
 # POO_PHP
-This repo is a course of Object Oriented Programing in PHP
+This repo is a course of Object Oriented Programming in PHP
 =============================================================
 ## exemplesPersonnages
 > This repository is exemples for class with MMORPG.
